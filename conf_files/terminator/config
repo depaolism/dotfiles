@@ -1,0 +1,24 @@
+[global_config]
+  focus = system
+[keybindings]
+  full_screen = <Ctrl><Shift>F11
+[profiles]
+  [[default]]
+    background_image = None
+    background_darkness = 0.8
+    scroll_background = False
+    custom_command = 'echo \"foo#bar\"'
+    font = Fixed 10
+    background_color = "#fdf6e3"
+    foreground_color = "#4b430c"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
