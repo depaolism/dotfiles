@@ -1,0 +1,6 @@
+copy DarkSwan.tmTheme to a folder within the Packages directory
+copy DarkSwan.sublime-theme to Packages/User/Default.sublime-theme
+
+TODO: 
+    Change color of folder icons in the sidebar
+    Find out how to use 'DarkSwan.sublime-theme' without having to name it 'Default.sublime-theme'
